@@ -33,3 +33,10 @@
 		@apply mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-8 pt-16 font-mono text-sm font-normal text-textColor antialiased;
 	}
 }
+
+.coverImg{
+	border-radius: 50%;
+	height: 10vh;
+	width: 10vh;
+	margin: 0 2rem 0 0;
+}
