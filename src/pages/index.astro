@@ -3,6 +3,8 @@ import SocialList from "@/components/SocialList.astro";
 import PostPreview from "@/components/blog/PostPreview.astro";
 import { getAllPosts, sortMDByDate } from "@/data/post";
 import PageLayout from "@/layouts/Base.astro";
+import NowPlaying from "../../myComp.jsx"
+import Summary from "@/components/Summary.astro"
 
 const MAX_POSTS = 10;
 const allPosts = await getAllPosts();
@@ -43,7 +45,11 @@ const cactusTech: { desc: string; href: string; title: string }[] = [
 ---
 
 <PageLayout meta={{ title: "Home" }}>
-	<section>
+	<Summary />
+	<SocialList />
+	<NowPlaying />
+
+	<!-- <section>
 		<h1 class="title mb-6">Software Enginer / Music Producer</h1>
 		<p class="mb-4">
 			I'm an Electronics engineer with deep interest on the music, my focus is to bring new approaches 
@@ -51,8 +57,11 @@ const cactusTech: { desc: string; href: string; title: string }[] = [
 			Right now im designing and implementing user friendly responsive and highly performant web 
 			applications using Angular and other web framworks. 
 		</p>
-		<SocialList />
-	</section>
+
+	</section> -->
+
+	
+
 	<section class="mt-16">
 		<h2 class="title mb-4 text-xl">Technologies</h2>
 		<dl class="space-y-4">
@@ -87,3 +96,5 @@ const cactusTech: { desc: string; href: string; title: string }[] = [
 	</section>
 
 </PageLayout>
+
+
