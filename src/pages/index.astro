@@ -10,61 +10,35 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 
 const cactusTech: { desc: string; href: string; title: string }[] = [
 	{
-		desc: "Build fast websites, faster.",
+		desc: "Build large-scalable and powerful websites, faster.",
 		href: "https://angular.dev/",
 		title: "Angular",
 	},
 	{
-		desc: "Rapidly build modern websites without ever leaving your HTML.",
+		desc: "Material Design components for Angular.",
 		href: "https://material.angular.io/",
 		title: "Angular Material",
 	},
 	{
-		desc: "Rapidly build modern websites without ever leaving your HTML.",
+		desc: "Powerful, extensible, and feature-packed frontend toolkit.",
 		href: "https://getbootstrap.com/",
 		title: "Bootstrap",
 	},
 	{
-		desc: "Rapidly build modern websites without ever leaving your HTML.",
+		desc: "Main three technologies for web development.",
 		href: "https://developer.mozilla.org/es/docs/Web/HTML",
-		title: "HTML",
+		title: "HTML / CSS / JS",
 	},
 	{
-		desc: "Rapidly build modern websites without ever leaving your HTML.",
-		href: "https://developer.mozilla.org/es/docs/Web/CSS",
-		title: "CSS / SCSS",
-	},
-	{
-		desc: "Rapidly build modern websites without ever leaving your HTML.",
-		href: "https://developer.mozilla.org/es/docs/Web/JavaScript",
-		title: "Javascript",
-	},
-	{
-		desc: "Simple and easy-to-use markup language.",
+		desc: "TypeScript: Enhanced tooling for scalable JavaScript development.",
 		href: "https://www.typescriptlang.org/",
 		title: "Typescript",
 	},
 	{
-		desc: "Markdown for the component era.",
+		desc: "Build faster dinamic and statics websites.",
 		href: "https://astro.build",
 		title: "Astro",
 	},
-	{
-		desc: "Markdown for the component era.",
-		href: "https://astro.build",
-		title: "Astro",
-	},
-	{
-		desc: "Markdown for the component era.",
-		href: "https://astro.build",
-		title: "Astro",
-	},
-	{
-		desc: "Markdown for the component era.",
-		href: "https://astro.build",
-		title: "Astro",
-	},
-
 ];
 ---
 
@@ -78,18 +52,6 @@ const cactusTech: { desc: string; href: string; title: string }[] = [
 			applications using Angular and other web framworks. 
 		</p>
 		<SocialList />
-	</section>
-	<section aria-label="Blog post list" class="mt-16">
-		<h2 class="title mb-4 text-xl">Posts</h2>
-		<ul class="space-y-4">
-			{
-				allPostsByDate.map((p) => (
-					<li class="grid gap-2 sm:grid-cols-[auto_1fr] sm:[&_q]:col-start-2">
-						<PostPreview post={p} />
-					</li>
-				))
-			}
-		</ul>
 	</section>
 	<section class="mt-16">
 		<h2 class="title mb-4 text-xl">Technologies</h2>
@@ -111,4 +73,17 @@ const cactusTech: { desc: string; href: string; title: string }[] = [
 			}
 		</dl>
 	</section>
+	<section aria-label="Blog post list" class="mt-16">
+		<h2 class="title mb-4 text-xl">Posts</h2>
+		<ul class="space-y-4">
+			{
+				allPostsByDate.map((p) => (
+					<li class="grid gap-2 sm:grid-cols-[auto_1fr] sm:[&_q]:col-start-2">
+						<PostPreview post={p} />
+					</li>
+				))
+			}
+		</ul>
+	</section>
+
 </PageLayout>
