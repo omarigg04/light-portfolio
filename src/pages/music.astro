@@ -1,5 +1,8 @@
 ---
 import madvillani from "images/madvillani.png";
+import basicChannel from "images/basicchannel.png";
+import wax from "images/wax1.png";
+import inrainbows from "images/inrainbows.png";
 import PageLayout from "@/layouts/Base.astro";
 import { Image } from "astro:assets";
 
@@ -18,14 +21,45 @@ const meta = {
 
             I'll leave few LP links and many valuable resources.
 		</p>
-		<div class="flex justify-center">
-			<Image
-				alt="madvillani"
-				fetchpriority="high"
-				loading="eager"
-				src={madvillani}
-			/>
-		</div>
+
+        <div class="grid grid-cols-4 gap-4 m-2">
+		    <div class="flex justify-center">
+                <a href="https://open.spotify.com/intl-es/album/19bQiwEKhXUBJWY6oV3KZk?si=f6d91c1f45454af6">
+                    <Image
+		    		alt="madvillani"
+		    		fetchpriority="high"
+		    		loading="eager"
+		    		src={madvillani}
+		    	/></a>
+                
+		    </div>
+            <div class="flex justify-center">
+                <a href="https://open.spotify.com/intl-es/album/42nhTxeaxPiqdi6VHBz08f?si=5pPlClcKRranLoIQzkC6Tw">
+		    	    <Image
+		    	    	alt="madvillani"
+		    	    	fetchpriority="high"
+		    	    	loading="eager"
+		    	    	src={basicChannel}
+		    	    />
+                </a>
+		    </div>
+            <div class="flex justify-center">
+		    	<Image
+		    		alt="madvillani"
+		    		fetchpriority="high"
+		    		loading="eager"
+		    		src={inrainbows}
+		    	/>
+		    </div>
+            <div class="flex justify-center">
+		    	<Image
+		    		alt="madvillani"
+		    		fetchpriority="high"
+		    		loading="eager"
+		    		src={wax}
+		    	/>
+		    </div>
+        </div>
 		<p>Here are my some of my awesome built in features:</p>
 		<ul class="list-inside list-disc">
 			<li>I'm ultra fast as I'm a static site</li>

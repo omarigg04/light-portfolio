@@ -40,3 +40,32 @@
 	width: 10vh;
 	margin: 0 2rem 0 0;
 }
+
+@media (max-width: 1024px) {
+	.grid-cols-4 {
+	  grid-template-columns: repeat(3, 1fr);
+	}
+  }
+  
+  @media (max-width: 768px) {
+	.grid-cols-4 {
+	  grid-template-columns: repeat(2, 1fr);
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.grid-cols-4 {
+	  grid-template-columns: 1fr;
+	}
+  }
+
+
+  #dev-bar-hitbox-below {
+    height: 16px;
+    display: none;
+}
+
+.ogImg2{
+	height: 40vh;
+	width: 40vh;
+}
