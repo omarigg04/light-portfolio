@@ -43,6 +43,9 @@ const cactusTech: { desc: string; href: string; title: string }[] = [
 		title: "Astro",
 	},
 ];
+
+
+
 ---
 
 <PageLayout meta={{ title: "Home" }}>
@@ -52,6 +55,15 @@ const cactusTech: { desc: string; href: string; title: string }[] = [
 		<!-- <NowPlaying /> -->
 
 	</section>
+	<div>
+		<div id="music" class="item">
+		
+		  <img
+			src="https://lastfm-recently-played.vercel.app/api?user=omarigg&loved=true&header_size=none&footer_style=normal_stats&width=300&bg_color=00000088"
+			alt="currently playing music from last.fm"
+		  />
+		</div>
+		</div>
 	<section class="mt-16">
 		<h2 class="title mb-4 text-xl">Technologies</h2>
 		<dl class="space-y-4">
