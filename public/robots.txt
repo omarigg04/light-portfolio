@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.omargaxiola.com/sitemap-0.xml
+Sitemap: https://omargaxila.com/sitemap-index.xml
