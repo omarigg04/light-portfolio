@@ -1,5 +1,5 @@
 ---
-title: "A working draft title"
+title: "my drafts"
 description: "This post is for testing the draft post functionality"
 publishDate: "10 March 2024"
 tags: ["test"]
