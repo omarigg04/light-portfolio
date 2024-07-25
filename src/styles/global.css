@@ -87,59 +87,78 @@
 
 
 
+.blogs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: auto;
+  max-height: 80vh; /* Ajusta la altura máxima del contenedor según tus necesidades */
+}
 
 .card {
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 300px;
-    text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  margin: 10px;
 }
 
 .card img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .card h3 {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .card p {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .card button {
-    background-color: #f05050;
-    color: #ffefef;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  background-color: #f05050;
+  color: #ffefef;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .card button:hover {
-    background-color: #d94646;
+  background-color: #d94646;
 }
 
-
-.card img{
-
-width: 30%;
-height: 90px;
+.card img {
+  width: 30%;
+  height: 90px;
 }
 
-.image{
+.image {
   display: flex;
   justify-content: center;
 }
 
-
-.card h3{
+.card h3 {
   color: #1b1b1b;
+}
+
+@media (max-width: 768px) {
+  section {
+      flex-direction: column;
+      align-items: center;
+      overflow: auto;
+      max-height: 80vh; /* Ajusta la altura máxima del contenedor según tus necesidades */
+  }
+
+  .card {
+      width: 90%;
+      margin: 10px 0;
+  }
 }
