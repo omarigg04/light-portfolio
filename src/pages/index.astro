@@ -5,6 +5,7 @@ import { getAllPosts, sortMDByDate } from "@/data/post";
 import PageLayout from "@/layouts/Base.astro";
 // import NowPlaying from "../../LastPlay.jsx"
 import Summary from "@/components/Summary.astro"
+import MyBlogs from "@/components/MyBlogs.astro";
 
 
 const MAX_POSTS = 10;
@@ -54,6 +55,9 @@ const cactusTech: { desc: string; href: string; title: string }[] = [
 		<SocialList />
 		<!-- <NowPlaying /> -->
 
+	</section>
+	<section class="m-4">
+		<MyBlogs />
 	</section>
 
 	<section class="mt-16">
