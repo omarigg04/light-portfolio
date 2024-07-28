@@ -1,5 +1,5 @@
 ---
-title: "La Dualidad Masculino ~ Femenino: Roles Contrarios para el Bienestar Emocional"
+title: "Dualidad De Genero: Roles Contrarios y Bienestar Emocional"
 publishDate: "27 July 2024"
 description: "Explora cómo la dualidad masculino ~ femenino dentro de cada individuo puede influir en su bienestar emocional."
 tags: ["dualidad", "masculino", "femenino", "bienestar", "emocional", "psicología", "SEO"]
