@@ -51,6 +51,10 @@ Check out the [Demo](https://astro-cactus.chriswilliams.dev/), hosted on Netlify
 [Create a new repo](https://github.com/chrismwilliams/astro-theme-cactus/generate) from this template.
 
 ```bash
+
+to run:
+pnpm dev 
+
 # npm 7+
 npm create astro@latest -- --template chrismwilliams/astro-theme-cactus
 
