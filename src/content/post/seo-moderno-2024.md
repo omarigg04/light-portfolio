@@ -1,5 +1,5 @@
 ---
-title: "El Cambio del SEO en Internet en 2024: Tendencias y Estrategias"
+title: "El Cambio del SEO en Internet 2024: Tendencias y Estrategias"
 publishDate: "05 August 2024"
 description: "Explora cómo ha cambiado el SEO en 2024 y descubre las nuevas tendencias y estrategias para optimizar tu presencia online."
 tags: ["SEO", "marketingdigital", "estrategiasSEO", "tendencias2024"]
