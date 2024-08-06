@@ -150,6 +150,8 @@
   color: #1b1b1b;
 }
 
+
+
 @media (max-width: 768px) {
   section {
       flex-direction: column;
@@ -157,13 +159,11 @@
       /* overflow: auto; */
       max-height: 80vh; /* Ajusta la altura máxima del contenedor según tus necesidades */
   }
-
   .card {
       width: 20rem;
       height: 25rem;
       margin: 10px 0;
   }
-
   .card img{
     width: 60%;
     height: 10rem;
@@ -172,15 +172,19 @@
 
 
 
-@media (max-width: 350px) {
+@media (max-width: 465px) {
   .card {
-      width: 12rem;
+      width: 15rem;
       height: 22rem;
-      margin: 10px 0;
   }
   .card img{
     width: 80%;
     height: 6rem;
   }
+}
 
+@media (max-width: 465px) {
+  .card {
+      width: 12rem;
+  }
 }
