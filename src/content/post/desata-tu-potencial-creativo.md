@@ -1,5 +1,5 @@
 ---
-title: "Desata Tu Potencial Creativo: Innovación y Diseño Web Moderno"
+title: "Innovación y Diseño Web Moderno"
 publishDate: "5 August 2024"
 description: "Descubre cómo la creatividad impulsa el diseño web moderno y transforma la experiencia del usuario."
 tags: ["creatividad", "diseño web", "experiencia de usuario", "innovación", "tecnología", "desarrollo web"]
