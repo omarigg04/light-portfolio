@@ -1,7 +1,7 @@
 ---
 title: Histograma de las Últimas Tecnologías Web desde el 96"
 description: Este artículo presenta un histograma detallado de las tecnologías web más importantes desde 1996 hasta la actualidad.
-publishDate: 2024-29-07
+publishDate: 28 July 2024
 tags: [web, tecnologia, desarrollo]
 ---
 
