@@ -139,6 +139,28 @@ button a{
   background-color: #d94646;
 }
 
+
+.containerCV{
+  display: flex;
+  justify-content: center;
+  margin: 4rem;
+}
+
+.ogbutton{
+  background-color: #f05050;
+  color: #ffefef;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ogbutton:hover {
+  background-color: #d94646;
+}
+
 /* .card img {
   width: 100%;
   height: 90px;
@@ -190,4 +212,11 @@ button a{
   .card {
       width: 12rem;
   }
+}
+
+
+/* fix for withe line at left of yt videos */
+
+.player .vp-video-wrapper .vp-preview#vp-preview.vp-preview-cover {
+  background-repeat: repeat;
 }

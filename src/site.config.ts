@@ -49,7 +49,11 @@ export const menuLinks: { path: string; title: string }[] = [
 	},
 	{
 		path: "/render/",
-		title: "Render",
+		title: "Video",
+	},
+	{
+		path: "/projects/",
+		title: "Projects",
 	},
 
 ];
