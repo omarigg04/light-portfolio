@@ -220,3 +220,20 @@ button a{
 .player .vp-video-wrapper .vp-preview#vp-preview.vp-preview-cover {
   background-repeat: repeat;
 }
+
+
+/* Styles for the temporary of experiences */
+/* Para trabajos más recientes */
+.work-recent {
+  border-color: #6acf98;
+}
+
+/* Para trabajos intermedios */
+.work-intermediate {
+  border-color:#74b0ff
+}
+
+/* Para trabajos más lejanos */
+.work-old {
+  border-color:#ffb272
+}

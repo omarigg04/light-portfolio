@@ -1,7 +1,5 @@
 ---
-// import aboutImg from "images/omi.png";
 import PageLayout from "@/layouts/Base.astro";
-// import { Image } from "astro:assets";
 
 const meta = {
 	description: "I'm a starter theme for Astro.build",
@@ -13,12 +11,10 @@ const meta = {
 	<div class="space-y-6">
 		<h1 class="title">About</h1>
 		<p>
-			I work as a software developer for a cfocused on provide stylish and functional 
-			user interface with the usage of technologies like Angular, React and Vue. 
-			I Also code a bit on the back-end and server side.
-			I consider myself creative and self-learner, science supporter, 
-			love to produce music and coding. I use to build my own tools and gadgets to create sound.
-
+			I work as a software developer for a company focused on providing stylish and functional 
+			user interfaces using technologies like Angular, React, and Vue. I also code a bit on the back-end and server side.
+			I consider myself creative and a self-learner, a supporter of science, and I love producing music and coding. 
+			I tend to build my own tools and gadgets to create sound.
 		</p>
 		<div class="flex justify-center">
 			<img
@@ -26,27 +22,111 @@ const meta = {
 				alt="A cartoon cactus looking at the 'Astro.build' logo"
 				fetchpriority="high"
 				loading="eager"
-				src="https://media.licdn.com/dms/image/C5603AQEeZvijUVr_RQ/profile-displayphoto-shrink_800_800/0/1625505575404?e=1726704000&v=beta&t=4RFwJ72PTEBtMGoaFRPqk9SXpCeEf8_9u1iRWeOcI3I"
+				src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXUxYjVwZG0wc2h4ZWEwcWJjZTA3MmpkOTRlZWxrdzZyOHJsb2lhOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KLHRipq0uMkDLwnqp7/giphy.gif"
 			/>
 		</div>
-		<p>Here are my some of my awesome built in features:</p>
+		<p>Here are some of the awesome features about me:</p>
 		<ul class="list-inside list-disc">
-			<li>I'm ultra fast as I'm a static site</li>
-			<li>I'm fully responsive</li>
-			<li>I come with a light and dark mode</li>
-			<li>I'm easy to customise and add additional content</li>
-			<li>I have Tailwind CSS styling</li>
-			<li>Shiki code syntax highlighting</li>
-			<li>Satori for auto generating OG images for blog posts</li>
+			<li>Creative and passionate about music production and sound design.</li>
+			<li>Always striving for improvement in both my software development and creative skills.</li>
+			<li>Self-taught and driven to create unique solutions with the tools I build.</li>
+			<li>Experienced in both frontend and backend development, with a focus on performance and usability.</li>
+			<li>Skilled in working with modern frameworks like Angular, React, and Vue, and tools like Tailwind CSS.</li>
+			<li>A dedicated problem solver, always looking for efficient solutions in coding and music production.</li>
+			<li>Detail-oriented, making sure both my code and audio compositions are polished to perfection.</li>
 		</ul>
+		
+
+		<!-- New Professional Experience Section -->
+		<h2 class="title">Professional Experience</h2>
+		<div class="space-y-6">
+
+			<div class="border-l-4 work-recent pl-4">
+				<h3 class="font-bold">NextEra Guadalajara ­ UI Developer</h3>
+				<p><strong>From:</strong> Mar, 2024 <strong>To:</strong> Jan, 2025</p>
+				<p><strong>Description:</strong></p>
+				<ul class="list-inside list-disc">
+					<li>Task Manager - Responsible to implement Angular UI and API consuming.</li>
+					<li>Implementing UI from UX designs using Angular 16+</li>
+					<li>Attending UI and Bug tickets in Jira.</li>
+					<li>Attending issue reports from QA.</li>
+					<li>Implement new features to the App.</li>
+					<li>Rearrange existing components in the App.</li>
+					<li>Consuming client APIs.</li>
+					<li>Usage of Material Library to implement UI.</li>
+				</ul>
+				<p><strong>Tools/Skills:</strong> Angular, TypeScript, Git, Material UI</p>
+			</div>
+
+			<div class="border-l-4 work-recent pl-4">
+				<h3 class="font-bold">JPMC Guadalajara ­ Angular Developer</h3>
+				<p><strong>From:</strong> Jun, 2023 <strong>To:</strong> Dec, 2023</p>
+				<p><strong>Description:</strong></p>
+				<ul class="list-inside list-disc">
+					<li>VDI Manager App - Design development from scratch for the UI, Angular 18+</li>
+					<li>Attending front-end user stories.</li>
+					<li>Attending issue reports from the testing area.</li>
+					<li>Implement all the routes for the portal.</li>
+					<li>Consuming the client APIs.</li>
+					<li>Usage of ag-grid library to implement all the grids and charts for the dashboard app.</li>
+				</ul>
+				<p><strong>Tools/Skills:</strong> Angular 2+, TypeScript, Git, Jasmine, Bootstrap, HTML5, SASS</p>
+			</div>
+
+			<div class="border-l-4 work-intermediate pl-4">
+				<h3 class="font-bold">PPG Guadalajara ­ Angular Developer</h3>
+				<p><strong>From:</strong> May, 2022 <strong>To:</strong> Apr, 2023</p>
+				<p><strong>Description:</strong></p>
+				<ul class="list-inside list-disc">
+					<li>Color App - Attending user stories and bugs assigned by tech leads.</li>
+					<li>Supporting QA team with regression testing.</li>
+					<li>Creating documentation for modules.</li>
+					<li>Showcasing new implementations in standup demos.</li>
+					<li>Attending daily scrum standup meetings.</li>
+				</ul>
+				<p><strong>Tools/Skills:</strong> Angular 2+, .NET Core, Microsoft SQL, Git, PostMan, Angular Material</p>
+			</div>
+
+			<div class="border-l-4 work-intermediate pl-4">
+				<h3 class="font-bold">Bython Media Guadalajara ­ Software Developer Jr</h3>
+				<p><strong>From:</strong> Oct, 2021 <strong>To:</strong> May, 2022</p>
+				<p><strong>Description:</strong></p>
+				<ul class="list-inside list-disc">
+					<li>Internal Marketing App - Creating and attending user stories for front and back end.</li>
+					<li>Reporting and resolving bugs.</li>
+					<li>Generating new ideas to improve UX design.</li>
+					<li>Attending scrum meetings.</li>
+				</ul>
+				<p><strong>Tools/Skills:</strong> Angular 2+, Flask, PostMan, PostgreSQL</p>
+			</div>
+
+			<div class="border-l-4 work-old pl-4">
+				<h3 class="font-bold">Colore Guadalajara ­ Web Developer</h3>
+				<p><strong>From:</strong> Jun, 2020 <strong>To:</strong> Aug, 2021</p>
+				<p><strong>Description:</strong></p>
+				<ul class="list-inside list-disc">
+					<li>E-commerce Web Developer - Ensured optimal performance of a Shopify-based e-commerce.</li>
+					<li>Implemented code features for the site.</li>
+					<li>Managed cloud inventories using CSV templates on Shopify dashboard.</li>
+					<li>Researching new technologies to improve workflow in IT, Marketing, and Design areas.</li>
+				</ul>
+				<p><strong>Tools/Skills:</strong> HTML5, MySQL, Javascript, MS Excel, Adobe Photoshop</p>
+			</div>
+
+			<div class="border-l-4 work-old pl-4">
+				<h3 class="font-bold">Prymel Elements Tampa, Florida ­ Digital Media Designer</h3>
+				<p><strong>From:</strong> Jun, 2017 <strong>To:</strong> Aug, 2020</p>
+				<p><strong>Description:</strong> Audio/Image production and editing as a freelancer.</p>
+			</div>
+		</div>
+
 		<p>
 			Clone or fork my <a
 				aria-label="github repository"
 				class="cactus-link inline-block"
 				href="https://github.com/chrismwilliams/astro-cactus"
 				rel="noopener noreferrer"
-				target="_blank">repo</a
-			> if you like me!
+				target="_blank">repo</a> if you like me!
 		</p>
 	</div>
 </PageLayout>
