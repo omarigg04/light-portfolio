@@ -193,6 +193,9 @@ button a{
     width: 60%;
     height: 10rem;
   }
+    .margin-mobile{
+    margin-top: 10rem;
+    }
 }
 
 
@@ -203,16 +206,15 @@ button a{
       height: 22rem;
   }
   .card img{
-    width: 80%;
+    width: 50%;
     height: 6rem;
   }
+  .margin-mobile{
+    margin-top: 10rem;
+    }
 }
 
-@media (max-width: 465px) {
-  .card {
-      width: 12rem;
-  }
-}
+
 
 
 /* fix for withe line at left of yt videos */
@@ -237,3 +239,8 @@ button a{
 .work-old {
   border-color:#ffb272
 }
+
+
+
+/* FIXEs ---------------*/
+
