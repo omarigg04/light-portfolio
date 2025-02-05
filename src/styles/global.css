@@ -90,13 +90,13 @@ button a{
   height: 100%;
 }
 
-.blogs {
+/* .blogs {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   /* overflow: auto; */
-  max-height: 80vh; /* Ajusta la altura máxima del contenedor según tus necesidades */
-}
+  /* max-height: 80vh; Ajusta la altura máxima del contenedor según tus necesidades 
+} */
 
 .card {
   background-color: #ffffff;
@@ -240,7 +240,9 @@ button a{
   border-color:#ffb272
 }
 
-
-
-/* FIXEs ---------------*/
-
+.myBlogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px; /* Ajusta el espaciado entre elementos */
+  justify-content: center;
+}
