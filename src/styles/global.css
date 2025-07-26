@@ -28,9 +28,14 @@
 	html {
 		@apply scroll-smooth;
 	}
+	
+	* {
+		box-sizing: border-box;
+	}
 
 	body {
 		@apply mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-8 pt-16 font-mono text-sm font-normal text-textColor antialiased;
+		overflow-x: hidden;
 	}
 }
 
@@ -239,6 +244,11 @@ button a{
     width: 60%;
     height: auto;
   }
+  
+  body {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
 }
 
 @media (max-width: 480px) {
@@ -248,5 +258,23 @@ button a{
   .card {
     width: 90%;
     margin: 10px auto;
+  }
+  
+  body {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  .containerCV {
+    margin: 2rem 0 !important;
+  }
+  
+  .tech-icons-container {
+    gap: 8px !important;
+  }
+  
+  .tech-icons-container img {
+    height: 32px !important;
+    max-width: 32px !important;
   }
 }
