@@ -10,23 +10,6 @@
   
   </section>
     
-    <script>
-      import dayjs from "dayjs";
-    
-      const calculateAge = () => {
-        return dayjs().diff(dayjs("1996-10-04"), "year", true).toFixed(9);
-      };
-    
-      document.getElementById("dyn_age")!.innerText = calculateAge();
-    
-      setInterval(() => { 
-        const dynAgeElement = document.getElementById("dyn_age");
-        if (dynAgeElement) {
-          dynAgeElement.innerText = calculateAge();
-        }
-      }, 50);
-    
-    </script>
 
 
 
