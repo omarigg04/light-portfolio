@@ -71,7 +71,7 @@ function writeToCache(data: WebmentionsCache) {
 	// write data to cache json file
 	fs.writeFile(filePath, fileContent, (err) => {
 		if (err) throw err;
-		console.log(`Webmentions saved to ${filePath}`);
+		// Webmentions saved successfully
 	});
 }
 

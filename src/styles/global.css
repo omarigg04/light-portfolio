@@ -28,9 +28,14 @@
 	html {
 		@apply scroll-smooth;
 	}
+	
+	* {
+		box-sizing: border-box;
+	}
 
 	body {
 		@apply mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-8 pt-16 font-mono text-sm font-normal text-textColor antialiased;
+		overflow-x: hidden;
 	}
 }
 
@@ -99,14 +104,21 @@ button a{
 } */
 
 .card {
-  background-color: #ffffff;
+  background-color: #fefefe;
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
   padding: 20px;
   width: 12.5rem;
   height: 12.5rem;
   text-align: center;
   margin: 10px;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  transform: translateY(-2px);
 }
 
 .card img {
@@ -172,7 +184,8 @@ button a{
 }
 
 .card h3 {
-  color: #1b1b1b;
+  color: #2c3e50;
+  font-weight: 600;
 }
 
 
@@ -207,28 +220,61 @@ button a{
 
 .myBlogs {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 16px; /* Ajusta el espaciado entre elementos */
   justify-content: center;
 }
 
 @media (max-width: 1024px) {
   .myBlogs {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (max-width: 768px) {
   .myBlogs {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .card {
-    width: 80%;
+    width: 100%;
     height: auto;
     margin: 10px 0;
   }
   .card img {
-    width: 80%;
+    width: 60%;
     height: auto;
+  }
+  
+  body {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .myBlogs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card {
+    width: 90%;
+    margin: 10px auto;
+  }
+  
+  body {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  .containerCV {
+    margin: 2rem 0 !important;
+  }
+  
+  .tech-icons-container {
+    gap: 8px !important;
+  }
+  
+  .tech-icons-container img {
+    height: 32px !important;
+    max-width: 32px !important;
   }
 }
