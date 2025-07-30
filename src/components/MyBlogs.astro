@@ -1,11 +1,6 @@
-<!-- ---
-import type { SiteMeta } from "@/types";
-
-// import { siteConfig } from "@/site-config";
-
-import "../styles/global.css";
-
-type Props = SiteMeta; -->
+---
+import financialTrackerIcon from "@/assets/svgs/financial-tracker.svg";
+---
 
 <!-- // const { articleDate, description, ogImage, title } = Astro.props;
 
@@ -74,7 +69,7 @@ type Props = SiteMeta; -->
 
     <div class="card m-4">
         <div class="image">
-            <img src="/src/assets/svgs/financial-tracker.svg" class="card-image" alt="Financial Tracker Logo">
+            <img src={financialTrackerIcon.src} class="card-image" alt="Financial Tracker Logo">
         </div>
         <h3>Financial Tracker</h3>
         <!-- <p>Personal finance tracker built with Flutter. </p> -->
